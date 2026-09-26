@@ -1,3 +1,5 @@
+> Versión actual: **2.0.2**, con command-tree v1.0.2 restaurado. Ver [CAMBIOS-2.0.2.md](CAMBIOS-2.0.2.md). Las referencias a la compilación anterior son históricas.
+
 # MDVEconomy 2.0.0 — Pujas y trueques
 
 Casa de subastas para Paper API 1.21.6 y Java 21. Reemplaza la compra directa de la versión 1 por publicaciones de **pujas** y **trueques**, con gestión, historial y entregas reclamables.

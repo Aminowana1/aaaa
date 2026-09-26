@@ -12,6 +12,8 @@ def verify(path: Path) -> None:
             'plugin.yml', 'config.yml', 'messages-v2.yml', 'menus/main.yml', 'menus/create.yml', 'menus/offers.yml',
             'com/mdvcraft/mdveconomy/MDVEconomyPlugin.class',
             'org/sqlite/JDBC.class',
+            'com/mdvcraft/commandtree/CommandNode.class',
+            'com/mdvcraft/commandtree/CommandTreeManager.class',
             'META-INF/services/java.sql.Driver',
         }
         required.update('menus/' + name + '.yml' for name in (

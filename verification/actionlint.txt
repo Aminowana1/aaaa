@@ -1,0 +1,1 @@
+actionlint 1.7.12: PASS, exit 0, no diagnostics. ShellCheck unavailable. No GitHub remote run.

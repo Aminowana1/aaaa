@@ -1,0 +1,65 @@
+title: "Crear publicación • {mode}"
+rows: 6
+filler:
+  material: "GRAY_STAINED_GLASS_PANE"
+  name: " "
+  lore: []
+  texture: ""
+listing-lore: ["", "&7Vendedor: &f{seller}", "&7Modo: &e{mode}", "&7Estado: &f{status}", "&7Puja actual: &6{price} denares", "&7Ganador / mejor postor: &f{winner}", "&7Tiempo: &f{time}", "&7Calidad: &f{tier}", "&7Pujas/ofertas: &f{offers}", "&aEntregas disponibles: {claimable}", "&eClic para ver detalles"]
+buttons:
+  help:
+    slot: 11
+    material: "OAK_SIGN"
+    name: "&eElegí el artículo"
+    lore: ["&7Clic en una pila de tu inventario.", "&7Se conserva su cantidad y metadatos.", "&7Se retira únicamente al publicar."]
+    texture: ""
+    action: "INFO"
+  duration:
+    slot: 38
+    material: "CLOCK"
+    name: "&eDuración: {hours} horas"
+    lore: ["&7Base: 10 h. Permisos: 16, 24 y 48 h."]
+    texture: ""
+    action: "DURATION"
+  mode:
+    slot: 39
+    material: "WHEAT"
+    name: "&eCambiar a trueque"
+    lore: []
+    texture: ""
+    action: "TOGGLE_MODE"
+  confirm:
+    slot: 40
+    material: "LIME_DYE"
+    name: "&aPublicar"
+    lore: ["&7Modo: {mode}", "&7Duración: {hours} horas"]
+    texture: ""
+    action: "PUBLISH"
+  cancel:
+    slot: 41
+    material: "RED_DYE"
+    name: "&cCancelar"
+    lore: []
+    texture: ""
+    action: "CANCEL_DRAFT"
+  back:
+    slot: 45
+    material: "SPECTRAL_ARROW"
+    name: "&eVolver"
+    lore: []
+    texture: ""
+    action: "BACK"
+input-slots: [13]
+selection-lore: ["", "&eSeleccionado: se retira al confirmar.", "&7Clic aquí para quitar la selección."]
+decorations: [{"material": "YELLOW_STAINED_GLASS_PANE", "name": " ", "slots": [3, 4, 5, 12, 14, 21, 22, 23]}]
+variants:
+  trade-mode:
+    material: "WHEAT"
+    name: "&eCambiar a trueque"
+    lore: ["&7El vendedor elige una oferta."]
+    texture: ""
+  bid-mode:
+    material: "SUNFLOWER"
+    name: "&eCambiar a pujas"
+    lore: ["&7Gana la mayor puja al finalizar."]
+    texture: ""

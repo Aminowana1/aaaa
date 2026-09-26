@@ -1,0 +1,29 @@
+name: "MDVEconomy"
+version: "${project.version}"
+main: "com.mdvcraft.mdveconomy.MDVEconomyPlugin"
+api-version: "1.21.6"
+author: "MDVCRAFT"
+depend: ["Vault", "MMOItems", "MythicLib"]
+commands:
+  ah:
+    description: "Mercado de pujas y trueques"
+    aliases: ["subastas"]
+    usage: "/ah"
+  mdveconomy:
+    description: "Administración del mercado"
+    usage: "/mdveconomy reload"
+permissions:
+  mdveconomy.reload:
+    default: "op"
+  mdveconomy.admin:
+    default: "op"
+  mdveconomy.slots.vip:
+    default: false
+  mdveconomy.slots.elite:
+    default: false
+  mdveconomy.duration.16:
+    default: false
+  mdveconomy.duration.24:
+    default: false
+  mdveconomy.duration.48:
+    default: false

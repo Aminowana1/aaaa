@@ -1,0 +1,13 @@
+PASS: stable player ID / quoted name
+PASS: default payment preference
+PASS: saved preference
+PASS: expired listings excluded from browsing
+PASS: page retrieval
+PASS: single successful sale transition
+PASS: expired listing cannot be sold
+PASS: idempotent expiration
+PASS: nullable source ID
+PASS: single successful claim
+PASS: claimed item excluded from queue
+PASS: foreign key enforcement
+PASS: 12 SQLite/repository checks. Inventory, Vault and crash recovery require Paper tests.

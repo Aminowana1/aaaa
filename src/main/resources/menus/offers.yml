@@ -1,0 +1,44 @@
+title: "Ofertas de trueque • {page}"
+rows: 6
+filler:
+  material: "GRAY_STAINED_GLASS_PANE"
+  name: " "
+  lore: []
+  texture: ""
+listing-lore: ["", "&7Vendedor: &f{seller}", "&7Modo: &e{mode}", "&7Estado: &f{status}", "&7Puja actual: &6{price} denares", "&7Ganador / mejor postor: &f{winner}", "&7Tiempo: &f{time}", "&7Calidad: &f{tier}", "&7Pujas/ofertas: &f{offers}", "&aEntregas disponibles: {claimable}", "&eClic para ver detalles"]
+buttons:
+  previous:
+    slot: 47
+    material: "ARROW"
+    name: "&ePágina anterior"
+    lore: []
+    texture: ""
+    action: "PREVIOUS"
+  next:
+    slot: 51
+    material: "ARROW"
+    name: "&ePágina siguiente"
+    lore: []
+    texture: ""
+    action: "NEXT"
+  back:
+    slot: 49
+    material: "SPECTRAL_ARROW"
+    name: "&eVolver"
+    lore: []
+    texture: ""
+    action: "BACK"
+preview-slot: 4
+head-slots: [9, 18, 27, 36]
+offer-slots: [[11, 12, 13, 14, 15], [20, 21, 22, 23, 24], [29, 30, 31, 32, 33], [38, 39, 40, 41, 42]]
+accept-slots: [16, 25, 34, 43]
+offer-head:
+  material: "PLAYER_HEAD"
+  name: "&e{player}"
+  lore: ["&7Oferta #{offer}", "&7Estado: {status}", "&7Fecha: {date}"]
+  texture: ""
+accept-icon:
+  material: "LIME_DYE"
+  name: "&aAceptar oferta de {player}"
+  lore: ["&7Confirma el intercambio definitivo.", "&7Las otras ofertas se devolverán."]
+  texture: ""

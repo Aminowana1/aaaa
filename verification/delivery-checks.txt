@@ -1,0 +1,5 @@
+PASS: 46 archivos originales inventariados; fuentes Java y recursos de producción idénticos byte a byte.
+PASS: XML del POM y sintaxis de ambos scripts Python.
+PASS: copia aislada del POM con versión 9.8.7-audit produjo finalName MDVEconomy-9.8.7-audit sin editar el workflow. Es una evaluación de metadatos; no se compiló esa versión ficticia.
+PASS: actionlint 1.7.12 sin errores.
+LIMIT: No se ejecutó Paper, Vault ni MMOItems. No se desplegó el plugin ni se ejecutó el helper contra un servidor.

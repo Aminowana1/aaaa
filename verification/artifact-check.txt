@@ -1,0 +1,1 @@
+PASS: verify_jar.py. All 11 menus, resources, Java 21 bytecode, SQLite JDBC and Linux native library present. No server APIs/signatures bundled. ZIP CRC passed.

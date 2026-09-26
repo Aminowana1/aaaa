@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.mdvcraft.mdveconomy.menus.MenuFilesTest
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.260 s -- in com.mdvcraft.mdveconomy.menus.MenuFilesTest

@@ -1,0 +1,23 @@
+Acceso denegado.
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.mdvcraft:mdveconomy >-----------------------
+[INFO] Building MDVEconomy 9.8.7-audit
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- help:3.5.1:evaluate (default-cli) @ mdveconomy ---
+[INFO] Artifact org.slf4j:slf4j-api:pom:1.7.36 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots)]
+[WARNING] The POM for org.slf4j:slf4j-api:jar:1.7.36 is missing, no dependency information available
+[INFO] No artifact parameter specified, using 'com.mdvcraft:mdveconomy:jar:9.8.7-audit' as project.
+[INFO] Artifact org.apache:apache:pom:23 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots)]
+[WARNING] Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:3.1.0: Plugin org.apache.maven.plugins:maven-antrun-plugin:3.1.0 or one of its dependencies could not be resolved:
+	The following artifacts could not be resolved: org.apache:apache:pom:23 (present, but unavailable): Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache:apache:pom:23 has not been downloaded from it before.
+
+[INFO] Result of evaluation written to: C:\Users\julia\Documents\Codex\2026-09-26\referenced-chatgpt-conversation-this-is-an\work\version-check\final-name.txt
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.426 s
+[INFO] Finished at: 2026-09-26T09:31:53-03:00
+[INFO] ------------------------------------------------------------------------

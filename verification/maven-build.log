@@ -1,0 +1,91 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.mdvcraft:mdveconomy >-----------------------
+[INFO] Building MDVEconomy 2.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.4.0:clean (default-clean) @ mdveconomy ---
+[INFO] Deleting <workspace>\work\rebuild\MDVEconomy\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ mdveconomy ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 13 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ mdveconomy ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 13 source files with javac [debug release 21] to target\classes
+[INFO] Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+[INFO] /<workspace>/work/rebuild/MDVEconomy/src/main/java/com/mdvcraft/mdveconomy/menus/MarketMenus.java: Some input files use or override a deprecated API.
+[INFO] /<workspace>/work/rebuild/MDVEconomy/src/main/java/com/mdvcraft/mdveconomy/menus/MarketMenus.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ mdveconomy ---
+[INFO] skip non existing resourceDirectory <workspace>\work\rebuild\MDVEconomy\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ mdveconomy ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 2 source files with javac [debug release 21] to target\test-classes
+[INFO] Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+[INFO] 
+[INFO] --- surefire:3.5.2:test (default-test) @ mdveconomy ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.mdvcraft.mdveconomy.market.MarketEngineTest
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+[INFO] Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.413 s -- in com.mdvcraft.mdveconomy.market.MarketEngineTest
+[INFO] Running com.mdvcraft.mdveconomy.menus.MenuFilesTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.260 s -- in com.mdvcraft.mdveconomy.menus.MenuFilesTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 51, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jar:3.4.2:jar (default-jar) @ mdveconomy ---
+[INFO] Building jar: <workspace>\work\rebuild\MDVEconomy\target\MDVEconomy-2.0.0.jar
+[INFO] 
+[INFO] --- shade:3.6.0:shade (default) @ mdveconomy ---
+[INFO] Including org.xerial:sqlite-jdbc:jar:3.50.3.0 in the shaded jar.
+[WARNING] MDVEconomy-2.0.0.jar, sqlite-jdbc-3.50.3.0.jar define 1 overlapping resource: 
+[WARNING]   - META-INF/MANIFEST.MF
+[WARNING] maven-shade-plugin has detected that some files are
+[WARNING] present in two or more JARs. When this happens, only one
+[WARNING] single version of the file is copied to the uber jar.
+[WARNING] Usually this is not harmful and you can skip these warnings,
+[WARNING] otherwise try to manually exclude artifacts based on
+[WARNING] mvn dependency:tree -Ddetail=true and the above output.
+[WARNING] See https://maven.apache.org/plugins/maven-shade-plugin/
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing <workspace>\work\rebuild\MDVEconomy\target\MDVEconomy-2.0.0.jar with <workspace>\work\rebuild\MDVEconomy\target\mdveconomy-2.0.0-shaded.jar
+[INFO] 
+[INFO] ----------------------< com.mdvcraft:mdveconomy >-----------------------
+[INFO] Building MDVEconomy 2.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- help:3.5.1:evaluate (default-cli) @ mdveconomy ---
+[INFO] No artifact parameter specified, using 'com.mdvcraft:mdveconomy:jar:2.0.0' as project.
+[INFO] Result of evaluation written to: <workspace>\work\rebuild\MDVEconomy\target\build-final-name.txt
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  19.857 s
+[INFO] Finished at: 2026-09-26T14:20:27-03:00
+[INFO] ------------------------------------------------------------------------

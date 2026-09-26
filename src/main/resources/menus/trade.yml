@@ -1,0 +1,33 @@
+title: "Ofrecer un trueque"
+rows: 6
+filler:
+  material: "GRAY_STAINED_GLASS_PANE"
+  name: " "
+  lore: []
+  texture: ""
+listing-lore: ["", "&7Vendedor: &f{seller}", "&7Modo: &e{mode}", "&7Estado: &f{status}", "&7Puja actual: &6{price} denares", "&7Ganador / mejor postor: &f{winner}", "&7Tiempo: &f{time}", "&7Calidad: &f{tier}", "&7Pujas/ofertas: &f{offers}", "&aEntregas disponibles: {claimable}", "&eClic para ver detalles"]
+buttons:
+  confirm:
+    slot: 31
+    material: "LIME_DYE"
+    name: "&aEnviar oferta"
+    lore: ["&7Hasta cinco pilas, incluidos denares.", "&7Se retiran al confirmar."]
+    texture: ""
+    action: "SUBMIT_TRADE"
+  offers:
+    slot: 32
+    material: "BOOK"
+    name: "&eVer ofertas recibidas"
+    lore: ["&7Solo lectura si no sos el vendedor."]
+    texture: ""
+    action: "OFFERS"
+  back:
+    slot: 49
+    material: "SPECTRAL_ARROW"
+    name: "&eVolver"
+    lore: []
+    texture: ""
+    action: "BACK"
+preview-slot: 13
+input-slots: [20, 21, 22, 23, 24]
+selection-lore: ["", "&eSeleccionado: se retira al confirmar.", "&7Clic aquí para quitar la selección."]

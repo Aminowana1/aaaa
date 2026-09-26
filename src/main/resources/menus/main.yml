@@ -1,0 +1,37 @@
+title: "Casa de Subastas"
+rows: 6
+filler:
+  material: "GRAY_STAINED_GLASS_PANE"
+  name: " "
+  lore: []
+  texture: ""
+listing-lore: ["", "&7Vendedor: &f{seller}", "&7Modo: &e{mode}", "&7Estado: &f{status}", "&7Puja actual: &6{price} denares", "&7Ganador / mejor postor: &f{winner}", "&7Tiempo: &f{time}", "&7Calidad: &f{tier}", "&7Pujas/ofertas: &f{offers}", "&aEntregas disponibles: {claimable}", "&eClic para ver detalles"]
+buttons:
+  auctions:
+    slot: 20
+    material: "GOLDEN_HORSE_ARMOR"
+    name: "&6Subastas"
+    lore: ["&7Explorá pujas y trueques."]
+    texture: ""
+    action: "BROWSE"
+  manage:
+    slot: 22
+    material: "CHEST"
+    name: "&aGestiones de tus subastas"
+    lore: ["&7Publicá, cancelá y reclamá tus ventas."]
+    texture: ""
+    action: "MANAGE"
+  bank:
+    slot: 24
+    material: "GOLD_BLOCK"
+    name: "&6Banco"
+    lore: ["&7Próximamente."]
+    texture: ""
+    action: "BANK"
+  close:
+    slot: 49
+    material: "BARRIER"
+    name: "&cCerrar"
+    lore: []
+    texture: ""
+    action: "CLOSE"

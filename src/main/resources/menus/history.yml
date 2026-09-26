@@ -1,0 +1,23 @@
+title: "Últimas tres pujas"
+rows: 6
+filler:
+  material: "GRAY_STAINED_GLASS_PANE"
+  name: " "
+  lore: []
+  texture: ""
+listing-lore: ["", "&7Vendedor: &f{seller}", "&7Modo: &e{mode}", "&7Estado: &f{status}", "&7Puja actual: &6{price} denares", "&7Ganador / mejor postor: &f{winner}", "&7Tiempo: &f{time}", "&7Calidad: &f{tier}", "&7Pujas/ofertas: &f{offers}", "&aEntregas disponibles: {claimable}", "&eClic para ver detalles"]
+buttons:
+  back:
+    slot: 49
+    material: "SPECTRAL_ARROW"
+    name: "&eVolver"
+    lore: []
+    texture: ""
+    action: "BACK"
+preview-slot: 13
+content-slots: [29, 31, 33]
+entry:
+  material: "PAPER"
+  name: "&e{player}"
+  lore: ["&7Puja: &6{amount} denares", "&7Fecha: {date}"]
+  texture: ""
